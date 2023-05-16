@@ -1,0 +1,454 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+.sayt
+{
+    max-width: 1920px;
+    width: 100%;
+}
+.header
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.header .nav
+{
+    width: 100%;
+    display: flex;
+}
+.nav .logo
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.header .nav ul
+{   
+    display: flex;
+    width: 100%;
+
+}
+.header .nav ul li
+{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 100px;
+}
+.header .nav ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.header .nav ul li a:hover
+{
+    color: #0082F4;
+}
+.header .nav > div
+{
+    width: 33%;
+
+
+}
+.header .nav .click
+{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.header .nav button
+{
+    width: 160px;
+    height: 50px;
+    background: #0082F4;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+}
+.header .nav button:hover
+{
+    width: 164px;
+    height: 52px;
+}
+.header .hero
+{
+    display: flex;
+    width: 100%;
+
+}
+.header .hero .text
+{
+    width: 50%;
+    margin-top: 180px;
+}
+.header .hero .image
+{
+    width: 50%;
+    margin-top: 100px;
+}
+.header .hero .text p:nth-child(1)
+{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #0082F4;
+}
+.header .hero .text h1
+{
+    font-family: Roboto;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 79px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.header .hero .text span
+{
+    color: #0082F4;
+}
+.header .hero .text p:nth-child(3)
+{
+    
+   margin: 20px 0 30px 0;
+   color: gray;
+
+
+}
+.header .hero .text button
+{
+    width: 160px;
+    height: 50px;
+    background: #0082F4;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+.header .hero .text button:hover
+{
+    width: 164px;
+    height: 52px;
+}
+.hero .text .buttons
+{
+    width: 400px;
+    display: flex;
+    
+}
+.header .hero .text .video
+{
+    border: 1px solid gray;
+    margin-left: 30px;
+    width: 160px;
+    height: 50px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    
+}
+.header .hero .text .video img
+{
+    display: inline;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #0082F4;
+
+}
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.container .about
+{
+    width: 100%;
+    display:flex;
+}
+.about .image
+{
+    width: 50%;
+    
+}
+.about .image img
+{
+    width: 466px;
+    
+}
+.about .text
+{
+    width: 50%;
+    padding-top: 80px ;
+}
+.about .text p:nth-child(1)
+{
+    color: #0082F4;
+    font-size: 20px;
+}
+.about .text h1
+{
+
+    font-size: 49px;
+    
+
+}
+.about .text p:nth-child(3)
+{   
+    font-size: 20px;
+    color: gray;
+}
+.about .text button
+{
+    width: 193px;
+    height: 63px;
+    background: #0082F4;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.about .text button:hover
+{
+    width: 195px;
+    height: 65px;
+}
+.container .work
+{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+}
+.wework
+{
+    text-align: center;
+    font-size: 48px;
+    margin-top: 210px;
+}
+.work .blok1
+{
+    width: 33%;
+    text-align: center;
+}
+.work .blok1 img
+{
+    width: 140px;
+}
+.work .blok1 h3
+{
+    font-size: 28px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.work .blok1 p
+{
+    color: gray;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.customers
+{
+    width: 100%;
+    margin-top: 120px;
+}
+.customers .name
+{
+    width: 100%;
+    display: flex;
+}
+.customers .name h3
+{
+    font-size: 48px;
+    margin-right: 280px;
+}
+.customers .name p
+{
+    color: #0082F4;
+    padding:1px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color:#89c7fe ;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.customers .cards
+{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+}
+.cards .card1
+{
+    position: relative;
+    height: 283px;
+    width: 420px;
+    border: 1px solid #0082F4;
+    border-radius: 10px;
+    display: flex;
+    
+}
+.cards .card1 p
+{
+    font-size: 18px;
+}
+.card1 .p1
+{
+  
+  
+    background-color: #0082F4;
+    width: 60px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    
+}
+.card1 .p1 img
+{
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.card1 .p2
+{
+    width: 360px;
+    padding:30px 60px ;
+}
+.right
+{
+    margin-left: 60px;
+}
+.emails
+{
+    width: 100%;
+    background-color: #E8ECFF4D;
+    text-align: center;
+    padding: 65px 0;
+    margin-top: 170px;
+}
+.emails h3
+{
+    font-size: 32px;
+    color: #0082F4;
+
+}
+.emails p
+{
+    font-size: 20px;
+    margin: 15px 0 30px 0;
+}
+.emails input
+{
+    width: 400px;
+    height: 80px;
+    background-color: #E8ECFF4D;
+    border: 0px solid #E8ECFF4D;;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    padding-left: 30px;
+}
+.emails input::placeholder
+{
+    font-size: 20px;
+}
+.emails button
+{
+    width: 100px;
+    height: 50px;
+    margin-right: 25px;
+    border-radius: 10px;
+    background-color: #0082F4;
+    color: #fff;
+    border: none;
+
+}
+.emails button:hover
+{
+    width: 104;
+    height: 52px;
+}
+.emails .tipe
+{
+    width: 480px;
+    height: 80px;
+    margin: 0 auto;
+    border: 1px solid #0082F4;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+footer
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+footer ul
+{
+    width: 100%;
+    display: flex;
+}
+footer ul li
+{
+    width: 25%;
+    list-style: none;
+}
+footer h3
+{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+footer p
+{
+    font-size: 20px;
+    color: gray;
+    line-height: 30px;
+}
+.linkend
+{
+    width: 100%;
+    background: linear-gradient(180deg, #058AFF 0%, rgba(57, 55, 206, 0.87) 97.91%);
+    padding: 30px 10%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons
+{
+    width: 200px;
+    margin-left: 200px;
+}
+.icons > svg
+{
+    width: 24px;
+}
+.linkend button
+{
+    width: 130px;
+    height: 50px;
+    color: #058AFF;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.linkend button:hover
+{
+    width: 134px;
+    height: 52px;
+}
